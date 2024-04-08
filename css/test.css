@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+header{
+   background: #6c63ff;
+  
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    
+    font-family: Poppins ;
+    padding-left: 15px;
+    
+    padding-block: 9px;
+}
+.ecout{
+    position: absolute;
+    top: 13%;
+    color: black;
+    font-weight: bold;
+}
+header span {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+section{
+    z-index: 0;
+}
+.pfl img{
+    height: 40px;
+    width: 40px;
+    margin-right: 50px;
+    background-color: white;
+    border-radius: 50% ;
+}
+footer{
+    background: #6c63ff;
+    color: white;
+     position: fixed;
+ 
+     bottom: 0;
+     z-index: 1000;
+     width: 100%;
+     left: 0;
+     display: flex;
+    justify-content: space-between;
+     padding: 20px 0px;
+     padding-inline: 15px;
+     padding-block: 12px; }
+ footer div{
+margin-inline: 50px;
+color: gray;
+font-size: 13px;
+background-color: white ;
+padding: 2px;
+border-radius: 5px;
+padding-inline: 10px;
+margin-inline: 10%;
+font-weight: bold;
+text-transform: capitalize;
+ }
+ footer div i{
+    color: red;
+    font-size: 18px;
+    margin-right: 5px;
+ }
+ .time{
+    background-color: white;
+    margin-top: 70%;
+    border-radius: 5px;
+    padding-block : 15px;
+    padding-inline: 10px;
+
+ }
+ .time div{
+    margin-bottom: 20px;
+    color: gray;
+    text-transform: capitalize;
+    font-size: 13px;
+ }
+ .center{
+    position: absolute;
+    left: 15%;
+    right: 20%;
+    object-fit: cover;
+    text-align: center;
+
+ }
+ .center img{
+    width: 40%;
+ }
+.main{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+   
+
+     
+    position: relative;
+   
+}
+
+.choix div{
+
+    margin-top: 12px;
+    color: gray;
+    display: flex;
+    padding: 0 30%;
+    gap: 10px;
+}
+.num {
+    font-weight: bolder;
+    font-size: large;
+}
+.left{
+    position: absolute;
+    left: 0;
+    
+    padding-inline: 7px;
+    text-align: none;
+    list-style-type: none;
+    top: 0;
+    width: 14%;
+    color: white;
+    height: 100%;
+    background: #6c63ff;
+}
+.left p{
+    margin-top: 40%;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+.left ul {
+    list-style-type: none;
+    background-color: white;
+    padding-block: 5px;
+    padding-inline: 5px;
+    border-radius: 5px;
+    text-align: center;
+   
+}
+.rep{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: white ;
+    color: gray;
+    margin-top: 40px;
+    border-radius: 5px;
+
+}
+.ri-checkbox-circle-line{
+    color: green;
+    font-size: 19px;
+}
+.ri-loader-2-line{
+    font-size: 19px;
+}
+.rep div{
+    margin-bottom: 5px;
+  
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.left li {
+    border-radius: 8px;
+    margin-top: 2px;
+    padding: 7px 8px;
+    background-color: rgb(179, 173, 173);
+    color: rgb(82, 82, 82);
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px rgb(187, 187, 187) solid;
+
+}
+.left ul i{
+    font-size: 19px;
+    color:  rgb(94, 199, 94);
+}
+/*.left li:nth-child(2){
+    border: 2px rgb(94, 199, 94) solid;
+}*/
+.defiler{
+    border: 2px rgb(94, 199, 94) solid;
+
+}
+.warn i{
+    color: rgb(240, 1, 1);
+    font-size: 19px;
+}
+.droite{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 18%;
+    height: 100%;
+    background: #6c63ff;
+    padding-inline: 7px;
+
+
+}
+.profil{
+    margin-top: 32%;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    padding-block: 5px;
+    padding-inline: 10px;
+}
+.profil h3{
+    text-align: center;
+    font-size: medium;
+    color: gray;
+}
+.ri-account-circle-line{
+    font-size: 18px;
+    color: gray;
+}
+.profil div:first-child{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    border-bottom: 1px gray solid;
+    margin-bottom: 10px;
+}
+.ri-hourglass-line{
+    font-size: 19px;
+    color: gray;
+    margin-left: 40%;
+        
+    font-weight: bolder;
+}
+.profil div{
+    margin-bottom: 8px;
+    color: rgb(128, 125, 125);
+}
+.pose{
+    transition: all .55s ease;
+}
